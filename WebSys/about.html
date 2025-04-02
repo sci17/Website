@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    </head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Learn something about me</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="home.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About Me</a></li>
+                    <li class="nav-item"><a class="nav-link" href="project.html">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle d-flex align-items-center" href="#" id="userDropdown" role="button" data-bs-toggle="dropdown">
+                            <img id="profileImage" src="img/logo.jpg" alt="Profile Picture" width="40" height="40" class="rounded-circle me-2">
+                            <span id="usernameDisplay">Owner</span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="profile.html">View Profile</a></li>
+                            <li><a class="dropdown-item" href="#" id="logout-btn">Logout</a></li>
+                        </ul>
+                    </li>                
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <section id="hero" class="hero">
+        <div class="text-center mt-5 pt-5">
+            <img src="img/profile.jpg" alt="profile" class="about-img">
+        <div class="container mt-4 d-flex justify-content-center flex-wrap gap-4">
+            <div class="card">
+                <div class="card-body">
+                    <h5><strong>PERSONAL DETAILS</strong></h5><br>
+                    <h6><strong>NAME:</strong>Spledelyn Cristine Recarze</h6><br>
+                    <h6><strong>BIRTHDATE:</strong>January 17, 2004</h6><br>
+                    <h6><strong>ADDRESS:</strong>Roxas, Palawan</h6><br>
+                    <h6><strong>FAVE GROUP:</strong>SB19</h6><br>
+                    <h6><strong>BIAS:</strong>Ken Suson</h6><br>
+                    <h6><strong>FAVE APP:</strong>TikTok</h6><br>
+                    <h6><strong>MOTTO:</strong>"Just keep grinding, soon everything will be all worth it."</h6>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-body">
+                    <h5><strong>SKILLS</strong></h5><br>
+                    <h6><strong>Technical</strong></h6>
+                    <ul>
+                        <li>Python</li>
+                        <li>HTML</li>
+                        <li>PHP</li>
+                    </ul>
+                    <h6><strong>Soft Skills</strong></h6>
+                    <ul>
+                        <li>Time Management</li>
+                        <li>Communication Skills</li>
+                        <li>Cooperative</li>
+                    </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="register.js"></script>
+    <script src="profile.js"></script>
+    </body>
+    </html>
